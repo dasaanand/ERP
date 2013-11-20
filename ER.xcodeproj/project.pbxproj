@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* ERAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ERAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* ER_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ER_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3A06FA25128159DF00020FCC /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		3A06FACA12817DD800020FCC /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		3A06FACB12817DD800020FCC /* Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minus.png; sourceTree = "<group>"; };
+		3A3A15F112853008008BF01A /* Notes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Notes.xib; path = /Users/dasaanand/Desktop/ERP/Notes.xib; sourceTree = "<absolute>"; };
+		3A3A165B128550BA008BF01A /* InvoicePrint.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InvoicePrint.xib; sourceTree = "<group>"; };
+		3A60B6441268F84300148E20 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		3A73ABB31338E94300804978 /* erp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = erp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8935D71269BAFF003747C4 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		3A8935D81269BAFF003747C4 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3A8935DB1269BAFF003747C4 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3A8935DC1269BAFF003747C4 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3A8935DD1269BAFF003747C4 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		3A8935DE1269BAFF003747C4 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		3A8935DF1269BAFF003747C4 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		3A8935E01269BAFF003747C4 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		3A8935E11269BAFF003747C4 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		3A8935E21269BAFF003747C4 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		3A8935F51269BB00003747C4 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		3AB48911126D838100F383DE /* Home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home2.png; sourceTree = "<group>"; };
+		3AC31D9C127F560B00599411 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3AC7CA33126993530064F1C9 /* Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
+		3AEB4BE412CDCE39001BED8A /* ER.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = ER.app; sourceTree = "<group>"; };
+		3AEB4BE812CDCE39001BED8A /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
+		3AEB4BE912CDCE39001BED8A /* build-state~.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state~.dat"; sourceTree = "<group>"; };
+		3AEB4BEA12CDCE39001BED8A /* ER-all-target-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ER-all-target-headers.hmap"; sourceTree = "<group>"; };
+		3AEB4BEB12CDCE39001BED8A /* ER-generated-files.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ER-generated-files.hmap"; sourceTree = "<group>"; };
+		3AEB4BEC12CDCE39001BED8A /* ER-own-target-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ER-own-target-headers.hmap"; sourceTree = "<group>"; };
+		3AEB4BED12CDCE39001BED8A /* ER-project-headers.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ER-project-headers.hmap"; sourceTree = "<group>"; };
+		3AEB4BEE12CDCE39001BED8A /* ER.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ER.dep; sourceTree = "<group>"; };
+		3AEB4BEF12CDCE39001BED8A /* ER.hmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = ER.hmap; sourceTree = "<group>"; };
+		3AEB4BF012CDCE39001BED8A /* ER~.dep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ER~.dep"; sourceTree = "<group>"; };
+		3AEB4BF312CDCE39001BED8A /* Analysis.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Analysis.o; sourceTree = "<group>"; };
+		3AEB4BF412CDCE39001BED8A /* AnalysisGraph.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = AnalysisGraph.o; sourceTree = "<group>"; };
+		3AEB4BF512CDCE39001BED8A /* Calendar-F016AB2A94B1B49.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Calendar-F016AB2A94B1B49.o"; sourceTree = "<group>"; };
+		3AEB4BF612CDCE39001BED8A /* Company-429070C3B3B4B.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Company-429070C3B3B4B.o"; sourceTree = "<group>"; };
+		3AEB4BF712CDCE39001BED8A /* Customer-F106E75B6F2B5B4D.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Customer-F106E75B6F2B5B4D.o"; sourceTree = "<group>"; };
+		3AEB4BF812CDCE39001BED8A /* Employee-2D933FD72C63EB56.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Employee-2D933FD72C63EB56.o"; sourceTree = "<group>"; };
+		3AEB4BF912CDCE39001BED8A /* ER */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ER; sourceTree = "<group>"; };
+		3AEB4BFA12CDCE39001BED8A /* ER.LinkFileList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ER.LinkFileList; sourceTree = "<group>"; };
+		3AEB4BFB12CDCE39001BED8A /* ERAppDelegate-20FD5FFBA13EB180.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "ERAppDelegate-20FD5FFBA13EB180.o"; sourceTree = "<group>"; };
+		3AEB4BFC12CDCE39001BED8A /* ERAppDelegate-F9E4B262B5C34C4C.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "ERAppDelegate-F9E4B262B5C34C4C.o"; sourceTree = "<group>"; };
+		3AEB4BFD12CDCE39001BED8A /* ERAppDelegate.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ERAppDelegate.o; sourceTree = "<group>"; };
+		3AEB4BFE12CDCE39001BED8A /* HomeView-2773C932D5EBFC57.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "HomeView-2773C932D5EBFC57.o"; sourceTree = "<group>"; };
+		3AEB4BFF12CDCE39001BED8A /* InvoiceView.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = InvoiceView.o; sourceTree = "<group>"; };
+		3AEB4C0012CDCE39001BED8A /* LoginScreen.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = LoginScreen.o; sourceTree = "<group>"; };
+		3AEB4C0112CDCE39001BED8A /* main-1A9D8A1CE0030E48.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "main-1A9D8A1CE0030E48.o"; sourceTree = "<group>"; };
+		3AEB4C0212CDCE39001BED8A /* main-B9843B6026D6EFA4.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "main-B9843B6026D6EFA4.o"; sourceTree = "<group>"; };
+		3AEB4C0312CDCE39001BED8A /* main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = main.o; sourceTree = "<group>"; };
+		3AEB4C0412CDCE39001BED8A /* NotesView-8421A79B746B3E4B.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "NotesView-8421A79B746B3E4B.o"; sourceTree = "<group>"; };
+		3AEB4C0512CDCE39001BED8A /* Products-752465EFD75B5E4D.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Products-752465EFD75B5E4D.o"; sourceTree = "<group>"; };
+		3AEB4C0612CDCE39001BED8A /* Profit-662724443A4B7E4F.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Profit-662724443A4B7E4F.o"; sourceTree = "<group>"; };
+		3AEB4C0712CDCE39001BED8A /* PurchaseDetails-5729E2989D3B9E51.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "PurchaseDetails-5729E2989D3B9E51.o"; sourceTree = "<group>"; };
+		3AEB4C0812CDCE39001BED8A /* PurchaseInvoice-93B63B145A742E5A.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "PurchaseInvoice-93B63B145A742E5A.o"; sourceTree = "<group>"; };
+		3AEB4C0912CDCE39001BED8A /* SalesDetails-84B8F968BD644E5C.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "SalesDetails-84B8F968BD644E5C.o"; sourceTree = "<group>"; };
+		3AEB4C0A12CDCE39001BED8A /* SalesInvoice-75BBB7BD20546E5E.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "SalesInvoice-75BBB7BD20546E5E.o"; sourceTree = "<group>"; };
+		3AEB4C0B12CDCE39001BED8A /* ServiceCentre-8CFF72A2BB032F4A.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "ServiceCentre-8CFF72A2BB032F4A.o"; sourceTree = "<group>"; };
+		3AEB4C0C12CDCE39001BED8A /* ThingsToDo-7E0230F71DF34F4C.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "ThingsToDo-7E0230F71DF34F4C.o"; sourceTree = "<group>"; };
+		3AEB4C0E12CDCE39001BED8A /* Analysis.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = Analysis.o; sourceTree = "<group>"; };
+		3AEB4C0F12CDCE39001BED8A /* AnalysisGraph.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = AnalysisGraph.o; sourceTree = "<group>"; };
+		3AEB4C1012CDCE39001BED8A /* Calendar-F016AB2A94B1B49.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = "Calendar-F016AB2A94B1B49.o"; sourceTree = "<group>"; };
+		3AEB4C1112CDCE39001BED8A /* Company-429070C3B3B4B.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = "Company-429070C3B3B4B.o"; sourceTree = "<group>"; };
+		3AEB4C1212CDCE39001BED8A /* Customer-F106E75B6F2B5B4D.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = "Customer-F106E75B6F2B5B4D.o"; sourceTree = "<group>"; };
+		3AEB4C1312CDCE39001BED8A /* Employee-2D933FD72C63EB56.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = "Employee-2D933FD72C63EB56.o"; sourceTree = "<group>"; };
+		3AEB4C1412CDCE39001BED8A /* ER */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = ER; sourceTree = "<group>"; };
+		3AEB4C1512CDCE39001BED8A /* ER.LinkFileList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ER.LinkFileList; sourceTree = "<group>"; };
+		3AEB4C1612CDCE39001BED8A /* ERAppDelegate-20FD5FFBA13EB180.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = "ERAppDelegate-20FD5FFBA13EB180.o"; sourceTree = "<group>"; };
+		3AEB4C1712CDCE39001BED8A /* ERAppDelegate-F9E4B262B5C34C4C.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = "ERAppDelegate-F9E4B262B5C34C4C.o"; sourceTree = "<group>"; };
+		3AEB4C1812CDCE39001BED8A /* ERAppDelegate.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = ERAppDelegate.o; sourceTree = "<group>"; };
+		3AEB4C1912CDCE39001BED8A /* InvoiceView.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = InvoiceView.o; sourceTree = "<group>"; };
+		3AEB4C1A12CDCE39001BED8A /* main-B9843B6026D6EFA4.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = "main-B9843B6026D6EFA4.o"; sourceTree = "<group>"; };
+		3AEB4C1B12CDCE39001BED8A /* main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = main.o; sourceTree = "<group>"; };
+		3AEB4C1D12CDCE39001BED8A /* Analysis.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Analysis.o; sourceTree = "<group>"; };
+		3AEB4C1E12CDCE39001BED8A /* AnalysisGraph.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = AnalysisGraph.o; sourceTree = "<group>"; };
+		3AEB4C1F12CDCE39001BED8A /* Calendar-F016AB2A94B1B49.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Calendar-F016AB2A94B1B49.o"; sourceTree = "<group>"; };
+		3AEB4C2012CDCE39001BED8A /* Company-429070C3B3B4B.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Company-429070C3B3B4B.o"; sourceTree = "<group>"; };
+		3AEB4C2112CDCE39001BED8A /* Company-429070C3B3B4B.o~$ */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Company-429070C3B3B4B.o~$"; sourceTree = "<group>"; };
+		3AEB4C2212CDCE39001BED8A /* Company-429070C3B3B4B.o~> */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Company-429070C3B3B4B.o~>"; sourceTree = "<group>"; };
+		3AEB4C2312CDCE39001BED8A /* Company-429070C3B3B4B.o~? */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Company-429070C3B3B4B.o~?"; sourceTree = "<group>"; };
+		3AEB4C2412CDCE39001BED8A /* Customer-F106E75B6F2B5B4D.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Customer-F106E75B6F2B5B4D.o"; sourceTree = "<group>"; };
+		3AEB4C2512CDCE39001BED8A /* Employee-2D933FD72C63EB56.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Employee-2D933FD72C63EB56.o"; sourceTree = "<group>"; };
+		3AEB4C2612CDCE39001BED8A /* ER */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ER; sourceTree = "<group>"; };
+		3AEB4C2712CDCE39001BED8A /* ER.LinkFileList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ER.LinkFileList; sourceTree = "<group>"; };
+		3AEB4C2812CDCE39001BED8A /* ERAppDelegate-20FD5FFBA13EB180.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "ERAppDelegate-20FD5FFBA13EB180.o"; sourceTree = "<group>"; };
+		3AEB4C2912CDCE39001BED8A /* ERAppDelegate-F9E4B262B5C34C4C.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "ERAppDelegate-F9E4B262B5C34C4C.o"; sourceTree = "<group>"; };
+		3AEB4C2A12CDCE39001BED8A /* ERAppDelegate.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ERAppDelegate.o; sourceTree = "<group>"; };
+		3AEB4C2B12CDCE39001BED8A /* Home.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Home.o; sourceTree = "<group>"; };
+		3AEB4C2C12CDCE39001BED8A /* HomeView-2773C932D5EBFC57.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "HomeView-2773C932D5EBFC57.o"; sourceTree = "<group>"; };
+		3AEB4C2D12CDCE39001BED8A /* HomeView.o~$ */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "HomeView.o~$"; sourceTree = "<group>"; };
+		3AEB4C2E12CDCE39001BED8A /* HomeView.o~> */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "HomeView.o~>"; sourceTree = "<group>"; };
+		3AEB4C2F12CDCE39001BED8A /* InvoiceView.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = InvoiceView.o; sourceTree = "<group>"; };
+		3AEB4C3012CDCE39001BED8A /* LoginScreen.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = LoginScreen.o; sourceTree = "<group>"; };
+		3AEB4C3112CDCE39001BED8A /* LoginView.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = LoginView.o; sourceTree = "<group>"; };
+		3AEB4C3212CDCE3A001BED8A /* main-1A9D8A1CE0030E48.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "main-1A9D8A1CE0030E48.o"; sourceTree = "<group>"; };
+		3AEB4C3312CDCE3A001BED8A /* main-B9843B6026D6EFA4.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "main-B9843B6026D6EFA4.o"; sourceTree = "<group>"; };
+		3AEB4C3412CDCE3A001BED8A /* main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = main.o; sourceTree = "<group>"; };
+		3AEB4C3512CDCE3A001BED8A /* NotesView-8421A79B746B3E4B.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "NotesView-8421A79B746B3E4B.o"; sourceTree = "<group>"; };
+		3AEB4C3612CDCE3A001BED8A /* Products-752465EFD75B5E4D.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Products-752465EFD75B5E4D.o"; sourceTree = "<group>"; };
+		3AEB4C3712CDCE3A001BED8A /* Profit-662724443A4B7E4F.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "Profit-662724443A4B7E4F.o"; sourceTree = "<group>"; };
+		3AEB4C3812CDCE3A001BED8A /* PurchaseDetails-5729E2989D3B9E51.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "PurchaseDetails-5729E2989D3B9E51.o"; sourceTree = "<group>"; };
+		3AEB4C3912CDCE3A001BED8A /* PurchaseInvoice-93B63B145A742E5A.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "PurchaseInvoice-93B63B145A742E5A.o"; sourceTree = "<group>"; };
+		3AEB4C3A12CDCE3A001BED8A /* SalesDetails-84B8F968BD644E5C.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "SalesDetails-84B8F968BD644E5C.o"; sourceTree = "<group>"; };
+		3AEB4C3B12CDCE3A001BED8A /* SalesInvoice-75BBB7BD20546E5E.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "SalesInvoice-75BBB7BD20546E5E.o"; sourceTree = "<group>"; };
+		3AEB4C3C12CDCE3A001BED8A /* ServiceCentre-8CFF72A2BB032F4A.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "ServiceCentre-8CFF72A2BB032F4A.o"; sourceTree = "<group>"; };
+		3AEB4C3D12CDCE3A001BED8A /* ThingsToDo-7E0230F71DF34F4C.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "ThingsToDo-7E0230F71DF34F4C.o"; sourceTree = "<group>"; };
+		3AEB4C3F12CDCE3A001BED8A /* categories.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = categories.pbxbtree; sourceTree = "<group>"; };
+		3AEB4C4012CDCE3A001BED8A /* cdecls.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = cdecls.pbxbtree; sourceTree = "<group>"; };
+		3AEB4C4112CDCE3A001BED8A /* decls.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = decls.pbxbtree; sourceTree = "<group>"; };
+		3AEB4C4212CDCE3A001BED8A /* files.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = files.pbxbtree; sourceTree = "<group>"; };
+		3AEB4C4312CDCE3A001BED8A /* imports.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = imports.pbxbtree; sourceTree = "<group>"; };
+		3AEB4C4412CDCE3A001BED8A /* pbxindex.header */ = {isa = PBXFileReference; lastKnownFileType = file; path = pbxindex.header; sourceTree = "<group>"; };
+		3AEB4C4512CDCE3A001BED8A /* protocols.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = protocols.pbxbtree; sourceTree = "<group>"; };
+		3AEB4C4612CDCE3A001BED8A /* refs.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = refs.pbxbtree; sourceTree = "<group>"; };
+		3AEB4C4812CDCE3A001BED8A /* control */ = {isa = PBXFileReference; lastKnownFileType = file; path = control; sourceTree = "<group>"; };
+		3AEB4C4912CDCE3A001BED8A /* strings */ = {isa = PBXFileReference; lastKnownFileType = file; path = strings; sourceTree = "<group>"; };
+		3AEB4C4A12CDCE3A001BED8A /* subclasses.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = subclasses.pbxbtree; sourceTree = "<group>"; };
+		3AEB4C4B12CDCE3A001BED8A /* symbols0.pbxsymbols */ = {isa = PBXFileReference; lastKnownFileType = file; path = symbols0.pbxsymbols; sourceTree = "<group>"; };
+		3AEB4C4C12CDCE3A001BED8A /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
+		3AEB4C4D12CDCE3A001BED8A /* Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calendar.m; sourceTree = "<group>"; };
+		3AEB4C4E12CDCE3A001BED8A /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		3AEB4C4F12CDCE3A001BED8A /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		3AEB4C5012CDCE3A001BED8A /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		3AEB4C5112CDCE3A001BED8A /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		3AEB4C5212CDCE3A001BED8A /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		3AEB4C5312CDCE3A001BED8A /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		3AEB4C5612CDCE3A001BED8A /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		3AEB4C5812CDCE3A001BED8A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = MainMenu.xib; sourceTree = "<group>"; };
+		3AEB4C5912CDCE3A001BED8A /* erp */ = {isa = PBXFileReference; lastKnownFileType = file; path = erp; sourceTree = "<group>"; };
+		3AEB4C5A12CDCE3A001BED8A /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		3AEB4C5B12CDCE3A001BED8A /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		3AEB4C5D12CDCE3A001BED8A /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		3AEB4C5E12CDCE3A001BED8A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3AEB4C5F12CDCE3A001BED8A /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		3AEB4C6012CDCE3A001BED8A /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		3AEB4C6112CDCE3A001BED8A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3AEB4C6212CDCE3A001BED8A /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3AEB4C6312CDCE3A001BED8A /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		3AEB4C6412CDCE3A001BED8A /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		3AEB4C6512CDCE3A001BED8A /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		3AEB4C6612CDCE3A001BED8A /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		3AEB4C6712CDCE3A001BED8A /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		3AEB4C6812CDCE3A001BED8A /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		3AEB4C6912CDCE3A001BED8A /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		3AEB4C6A12CDCE3A001BED8A /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		3AEB4C6B12CDCE3A001BED8A /* Home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home2.png; sourceTree = "<group>"; };
+		3AEB4C6C12CDCE3A001BED8A /* Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minus.png; sourceTree = "<group>"; };
+		3AEB4C6D12CDCE3A001BED8A /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		3AEB4C6E12CDCE3A001BED8A /* LoginScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScreen.h; sourceTree = "<group>"; };
+		3AEB4C6F12CDCE3A001BED8A /* LoginScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginScreen.m; sourceTree = "<group>"; };
+		3AEB4C7012CDCE3A001BED8A /* Notes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Notes.xib; sourceTree = "<group>"; };
+		3AEB4C7112CDCE3A001BED8A /* NotesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesView.h; sourceTree = "<group>"; };
+		3AEB4C7212CDCE3A001BED8A /* NotesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesView.m; sourceTree = "<group>"; };
+		3AEB4C7312CDCE3A001BED8A /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		3AEB4C7412CDCE3A001BED8A /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		3AEB4C7512CDCE3A001BED8A /* Profit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profit.h; sourceTree = "<group>"; };
+		3AEB4C7612CDCE3A001BED8A /* Profit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profit.m; sourceTree = "<group>"; };
+		3AEB4C7712CDCE3A001BED8A /* PurchaseDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseDetails.h; sourceTree = "<group>"; };
+		3AEB4C7812CDCE3A001BED8A /* PurchaseDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseDetails.m; sourceTree = "<group>"; };
+		3AEB4C7912CDCE3A001BED8A /* PurchaseInvoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseInvoice.h; sourceTree = "<group>"; };
+		3AEB4C7A12CDCE3A001BED8A /* PurchaseInvoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseInvoice.m; sourceTree = "<group>"; };
+		3AEB4C7B12CDCE3A001BED8A /* SalesDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesDetails.h; sourceTree = "<group>"; };
+		3AEB4C7C12CDCE3A001BED8A /* SalesDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesDetails.m; sourceTree = "<group>"; };
+		3AEB4C7D12CDCE3A001BED8A /* SalesInvoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesInvoice.h; sourceTree = "<group>"; };
+		3AEB4C7E12CDCE3A001BED8A /* SalesInvoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesInvoice.m; sourceTree = "<group>"; };
+		3AEB4C7F12CDCE3A001BED8A /* ServiceCentre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceCentre.h; sourceTree = "<group>"; };
+		3AEB4C8012CDCE3A001BED8A /* ServiceCentre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceCentre.m; sourceTree = "<group>"; };
+		3AEB4C8112CDCE3A001BED8A /* ThingsToDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThingsToDo.h; sourceTree = "<group>"; };
+		3AEB4C8212CDCE3A001BED8A /* ThingsToDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThingsToDo.m; sourceTree = "<group>"; };
+		3AEB4D0F12CDCEA8001BED8A /* erp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "erp-Info.plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ER-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ER-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AEB4D0B12CDCEA8001BED8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* ERAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* ERAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AC31D9C127F560B00599411 /* OpenGL.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				3A60B6441268F84300148E20 /* libsqlite3.0.dylib */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A73ABB31338E94300804978 /* erp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ER */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4BE212CDCE38001BED8A /* build */,
+				3AEB4C4C12CDCE3A001BED8A /* Calendar.h */,
+				3AEB4C4D12CDCE3A001BED8A /* Calendar.m */,
+				3AEB4C4E12CDCE3A001BED8A /* Company.h */,
+				3AEB4C4F12CDCE3A001BED8A /* Company.m */,
+				3AEB4C5012CDCE3A001BED8A /* Customer.h */,
+				3AEB4C5112CDCE3A001BED8A /* Customer.m */,
+				3AEB4C5212CDCE3A001BED8A /* Employee.h */,
+				3AEB4C5312CDCE3A001BED8A /* Employee.m */,
+				3AEB4C5412CDCE3A001BED8A /* English.lproj */,
+				3AEB4C5912CDCE3A001BED8A /* erp */,
+				3AEB4C5A12CDCE3A001BED8A /* HomeView.h */,
+				3AEB4C5B12CDCE3A001BED8A /* HomeView.m */,
+				3AEB4C5C12CDCE3A001BED8A /* icons */,
+				3AEB4C6D12CDCE3A001BED8A /* Login.xib */,
+				3AEB4C6E12CDCE3A001BED8A /* LoginScreen.h */,
+				3AEB4C6F12CDCE3A001BED8A /* LoginScreen.m */,
+				3AEB4C7012CDCE3A001BED8A /* Notes.xib */,
+				3AEB4C7112CDCE3A001BED8A /* NotesView.h */,
+				3AEB4C7212CDCE3A001BED8A /* NotesView.m */,
+				3AEB4C7312CDCE3A001BED8A /* Products.h */,
+				3AEB4C7412CDCE3A001BED8A /* Products.m */,
+				3AEB4C7512CDCE3A001BED8A /* Profit.h */,
+				3AEB4C7612CDCE3A001BED8A /* Profit.m */,
+				3AEB4C7712CDCE3A001BED8A /* PurchaseDetails.h */,
+				3AEB4C7812CDCE3A001BED8A /* PurchaseDetails.m */,
+				3AEB4C7912CDCE3A001BED8A /* PurchaseInvoice.h */,
+				3AEB4C7A12CDCE3A001BED8A /* PurchaseInvoice.m */,
+				3AEB4C7B12CDCE3A001BED8A /* SalesDetails.h */,
+				3AEB4C7C12CDCE3A001BED8A /* SalesDetails.m */,
+				3AEB4C7D12CDCE3A001BED8A /* SalesInvoice.h */,
+				3AEB4C7E12CDCE3A001BED8A /* SalesInvoice.m */,
+				3AEB4C7F12CDCE3A001BED8A /* ServiceCentre.h */,
+				3AEB4C8012CDCE3A001BED8A /* ServiceCentre.m */,
+				3AEB4C8112CDCE3A001BED8A /* ThingsToDo.h */,
+				3AEB4C8212CDCE3A001BED8A /* ThingsToDo.m */,
+				080E96DDFE201D6D7F000001 /* AppDelegate */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				3A8935D61269BAFF003747C4 /* icons */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				3AEB4D0F12CDCEA8001BED8A /* erp-Info.plist */,
+			);
+			name = ER;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* ER_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A3A165B128550BA008BF01A /* InvoicePrint.xib */,
+				3A3A15F112853008008BF01A /* Notes.xib */,
+				3AC7CA33126993530064F1C9 /* Home.xib */,
+				8D1107310486CEB800E47090 /* ER-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A8935D61269BAFF003747C4 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				3A06FACA12817DD800020FCC /* Add.png */,
+				3A06FACB12817DD800020FCC /* Minus.png */,
+				3A8935D71269BAFF003747C4 /* 0.png */,
+				3A8935D81269BAFF003747C4 /* 1.png */,
+				3A8935DB1269BAFF003747C4 /* 2.png */,
+				3A8935DC1269BAFF003747C4 /* 3.png */,
+				3A8935DD1269BAFF003747C4 /* 4.png */,
+				3A8935DE1269BAFF003747C4 /* 5.png */,
+				3A8935DF1269BAFF003747C4 /* 6.png */,
+				3A8935E01269BAFF003747C4 /* 7.png */,
+				3A8935E11269BAFF003747C4 /* 8.png */,
+				3A8935E21269BAFF003747C4 /* 9.png */,
+				3A8935F51269BB00003747C4 /* 10.png */,
+				3A06FA25128159DF00020FCC /* Home.png */,
+				3AB48911126D838100F383DE /* Home2.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		3AEB4BE212CDCE38001BED8A /* build */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4BE312CDCE39001BED8A /* Debug */,
+				3AEB4BE512CDCE39001BED8A /* ER.build */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		3AEB4BE312CDCE39001BED8A /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4BE412CDCE39001BED8A /* ER.app */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		3AEB4BE512CDCE39001BED8A /* ER.build */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4BE612CDCE39001BED8A /* Debug */,
+				3AEB4C3E12CDCE3A001BED8A /* ER.pbxindex */,
+			);
+			path = ER.build;
+			sourceTree = "<group>";
+		};
+		3AEB4BE612CDCE39001BED8A /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4BE712CDCE39001BED8A /* ER.build */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		3AEB4BE712CDCE39001BED8A /* ER.build */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4BE812CDCE39001BED8A /* build-state.dat */,
+				3AEB4BE912CDCE39001BED8A /* build-state~.dat */,
+				3AEB4BEA12CDCE39001BED8A /* ER-all-target-headers.hmap */,
+				3AEB4BEB12CDCE39001BED8A /* ER-generated-files.hmap */,
+				3AEB4BEC12CDCE39001BED8A /* ER-own-target-headers.hmap */,
+				3AEB4BED12CDCE39001BED8A /* ER-project-headers.hmap */,
+				3AEB4BEE12CDCE39001BED8A /* ER.dep */,
+				3AEB4BEF12CDCE39001BED8A /* ER.hmap */,
+				3AEB4BF012CDCE39001BED8A /* ER~.dep */,
+				3AEB4BF112CDCE39001BED8A /* Objects-normal */,
+			);
+			path = ER.build;
+			sourceTree = "<group>";
+		};
+		3AEB4BF112CDCE39001BED8A /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4BF212CDCE39001BED8A /* i386 */,
+				3AEB4C0D12CDCE39001BED8A /* ppc */,
+				3AEB4C1C12CDCE39001BED8A /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		3AEB4BF212CDCE39001BED8A /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4BF312CDCE39001BED8A /* Analysis.o */,
+				3AEB4BF412CDCE39001BED8A /* AnalysisGraph.o */,
+				3AEB4BF512CDCE39001BED8A /* Calendar-F016AB2A94B1B49.o */,
+				3AEB4BF612CDCE39001BED8A /* Company-429070C3B3B4B.o */,
+				3AEB4BF712CDCE39001BED8A /* Customer-F106E75B6F2B5B4D.o */,
+				3AEB4BF812CDCE39001BED8A /* Employee-2D933FD72C63EB56.o */,
+				3AEB4BF912CDCE39001BED8A /* ER */,
+				3AEB4BFA12CDCE39001BED8A /* ER.LinkFileList */,
+				3AEB4BFB12CDCE39001BED8A /* ERAppDelegate-20FD5FFBA13EB180.o */,
+				3AEB4BFC12CDCE39001BED8A /* ERAppDelegate-F9E4B262B5C34C4C.o */,
+				3AEB4BFD12CDCE39001BED8A /* ERAppDelegate.o */,
+				3AEB4BFE12CDCE39001BED8A /* HomeView-2773C932D5EBFC57.o */,
+				3AEB4BFF12CDCE39001BED8A /* InvoiceView.o */,
+				3AEB4C0012CDCE39001BED8A /* LoginScreen.o */,
+				3AEB4C0112CDCE39001BED8A /* main-1A9D8A1CE0030E48.o */,
+				3AEB4C0212CDCE39001BED8A /* main-B9843B6026D6EFA4.o */,
+				3AEB4C0312CDCE39001BED8A /* main.o */,
+				3AEB4C0412CDCE39001BED8A /* NotesView-8421A79B746B3E4B.o */,
+				3AEB4C0512CDCE39001BED8A /* Products-752465EFD75B5E4D.o */,
+				3AEB4C0612CDCE39001BED8A /* Profit-662724443A4B7E4F.o */,
+				3AEB4C0712CDCE39001BED8A /* PurchaseDetails-5729E2989D3B9E51.o */,
+				3AEB4C0812CDCE39001BED8A /* PurchaseInvoice-93B63B145A742E5A.o */,
+				3AEB4C0912CDCE39001BED8A /* SalesDetails-84B8F968BD644E5C.o */,
+				3AEB4C0A12CDCE39001BED8A /* SalesInvoice-75BBB7BD20546E5E.o */,
+				3AEB4C0B12CDCE39001BED8A /* ServiceCentre-8CFF72A2BB032F4A.o */,
+				3AEB4C0C12CDCE39001BED8A /* ThingsToDo-7E0230F71DF34F4C.o */,
+			);
+			path = i386;
+			sourceTree = "<group>";
+		};
+		3AEB4C0D12CDCE39001BED8A /* ppc */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4C0E12CDCE39001BED8A /* Analysis.o */,
+				3AEB4C0F12CDCE39001BED8A /* AnalysisGraph.o */,
+				3AEB4C1012CDCE39001BED8A /* Calendar-F016AB2A94B1B49.o */,
+				3AEB4C1112CDCE39001BED8A /* Company-429070C3B3B4B.o */,
+				3AEB4C1212CDCE39001BED8A /* Customer-F106E75B6F2B5B4D.o */,
+				3AEB4C1312CDCE39001BED8A /* Employee-2D933FD72C63EB56.o */,
+				3AEB4C1412CDCE39001BED8A /* ER */,
+				3AEB4C1512CDCE39001BED8A /* ER.LinkFileList */,
+				3AEB4C1612CDCE39001BED8A /* ERAppDelegate-20FD5FFBA13EB180.o */,
+				3AEB4C1712CDCE39001BED8A /* ERAppDelegate-F9E4B262B5C34C4C.o */,
+				3AEB4C1812CDCE39001BED8A /* ERAppDelegate.o */,
+				3AEB4C1912CDCE39001BED8A /* InvoiceView.o */,
+				3AEB4C1A12CDCE39001BED8A /* main-B9843B6026D6EFA4.o */,
+				3AEB4C1B12CDCE39001BED8A /* main.o */,
+			);
+			path = ppc;
+			sourceTree = "<group>";
+		};
+		3AEB4C1C12CDCE39001BED8A /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4C1D12CDCE39001BED8A /* Analysis.o */,
+				3AEB4C1E12CDCE39001BED8A /* AnalysisGraph.o */,
+				3AEB4C1F12CDCE39001BED8A /* Calendar-F016AB2A94B1B49.o */,
+				3AEB4C2012CDCE39001BED8A /* Company-429070C3B3B4B.o */,
+				3AEB4C2112CDCE39001BED8A /* Company-429070C3B3B4B.o~$ */,
+				3AEB4C2212CDCE39001BED8A /* Company-429070C3B3B4B.o~> */,
+				3AEB4C2312CDCE39001BED8A /* Company-429070C3B3B4B.o~? */,
+				3AEB4C2412CDCE39001BED8A /* Customer-F106E75B6F2B5B4D.o */,
+				3AEB4C2512CDCE39001BED8A /* Employee-2D933FD72C63EB56.o */,
+				3AEB4C2612CDCE39001BED8A /* ER */,
+				3AEB4C2712CDCE39001BED8A /* ER.LinkFileList */,
+				3AEB4C2812CDCE39001BED8A /* ERAppDelegate-20FD5FFBA13EB180.o */,
+				3AEB4C2912CDCE39001BED8A /* ERAppDelegate-F9E4B262B5C34C4C.o */,
+				3AEB4C2A12CDCE39001BED8A /* ERAppDelegate.o */,
+				3AEB4C2B12CDCE39001BED8A /* Home.o */,
+				3AEB4C2C12CDCE39001BED8A /* HomeView-2773C932D5EBFC57.o */,
+				3AEB4C2D12CDCE39001BED8A /* HomeView.o~$ */,
+				3AEB4C2E12CDCE39001BED8A /* HomeView.o~> */,
+				3AEB4C2F12CDCE39001BED8A /* InvoiceView.o */,
+				3AEB4C3012CDCE39001BED8A /* LoginScreen.o */,
+				3AEB4C3112CDCE39001BED8A /* LoginView.o */,
+				3AEB4C3212CDCE3A001BED8A /* main-1A9D8A1CE0030E48.o */,
+				3AEB4C3312CDCE3A001BED8A /* main-B9843B6026D6EFA4.o */,
+				3AEB4C3412CDCE3A001BED8A /* main.o */,
+				3AEB4C3512CDCE3A001BED8A /* NotesView-8421A79B746B3E4B.o */,
+				3AEB4C3612CDCE3A001BED8A /* Products-752465EFD75B5E4D.o */,
+				3AEB4C3712CDCE3A001BED8A /* Profit-662724443A4B7E4F.o */,
+				3AEB4C3812CDCE3A001BED8A /* PurchaseDetails-5729E2989D3B9E51.o */,
+				3AEB4C3912CDCE3A001BED8A /* PurchaseInvoice-93B63B145A742E5A.o */,
+				3AEB4C3A12CDCE3A001BED8A /* SalesDetails-84B8F968BD644E5C.o */,
+				3AEB4C3B12CDCE3A001BED8A /* SalesInvoice-75BBB7BD20546E5E.o */,
+				3AEB4C3C12CDCE3A001BED8A /* ServiceCentre-8CFF72A2BB032F4A.o */,
+				3AEB4C3D12CDCE3A001BED8A /* ThingsToDo-7E0230F71DF34F4C.o */,
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		3AEB4C3E12CDCE3A001BED8A /* ER.pbxindex */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4C3F12CDCE3A001BED8A /* categories.pbxbtree */,
+				3AEB4C4012CDCE3A001BED8A /* cdecls.pbxbtree */,
+				3AEB4C4112CDCE3A001BED8A /* decls.pbxbtree */,
+				3AEB4C4212CDCE3A001BED8A /* files.pbxbtree */,
+				3AEB4C4312CDCE3A001BED8A /* imports.pbxbtree */,
+				3AEB4C4412CDCE3A001BED8A /* pbxindex.header */,
+				3AEB4C4512CDCE3A001BED8A /* protocols.pbxbtree */,
+				3AEB4C4612CDCE3A001BED8A /* refs.pbxbtree */,
+				3AEB4C4712CDCE3A001BED8A /* strings.pbxstrings */,
+				3AEB4C4A12CDCE3A001BED8A /* subclasses.pbxbtree */,
+				3AEB4C4B12CDCE3A001BED8A /* symbols0.pbxsymbols */,
+			);
+			path = ER.pbxindex;
+			sourceTree = "<group>";
+		};
+		3AEB4C4712CDCE3A001BED8A /* strings.pbxstrings */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4C4812CDCE3A001BED8A /* control */,
+				3AEB4C4912CDCE3A001BED8A /* strings */,
+			);
+			path = strings.pbxstrings;
+			sourceTree = "<group>";
+		};
+		3AEB4C5412CDCE3A001BED8A /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4C5512CDCE3A001BED8A /* InfoPlist.strings */,
+				3AEB4C5712CDCE3A001BED8A /* MainMenu.xib */,
+			);
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		3AEB4C5C12CDCE3A001BED8A /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB4C5D12CDCE3A001BED8A /* 0.png */,
+				3AEB4C5E12CDCE3A001BED8A /* 1.png */,
+				3AEB4C5F12CDCE3A001BED8A /* 10.png */,
+				3AEB4C6012CDCE3A001BED8A /* 11.png */,
+				3AEB4C6112CDCE3A001BED8A /* 2.png */,
+				3AEB4C6212CDCE3A001BED8A /* 3.png */,
+				3AEB4C6312CDCE3A001BED8A /* 4.png */,
+				3AEB4C6412CDCE3A001BED8A /* 5.png */,
+				3AEB4C6512CDCE3A001BED8A /* 6.png */,
+				3AEB4C6612CDCE3A001BED8A /* 7.png */,
+				3AEB4C6712CDCE3A001BED8A /* 8.png */,
+				3AEB4C6812CDCE3A001BED8A /* 9.png */,
+				3AEB4C6912CDCE3A001BED8A /* Add.png */,
+				3AEB4C6A12CDCE3A001BED8A /* Home.png */,
+				3AEB4C6B12CDCE3A001BED8A /* Home2.png */,
+				3AEB4C6C12CDCE3A001BED8A /* Minus.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AEB4D0C12CDCEA8001BED8A /* erp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AEB4D1212CDCEA9001BED8A /* Build configuration list for PBXNativeTarget "erp" */;
+			buildPhases = (
+				3AEB4D0912CDCEA8001BED8A /* Resources */,
+				3AEB4D0A12CDCEA8001BED8A /* Sources */,
+				3AEB4D0B12CDCEA8001BED8A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = erp;
+			productName = erp;
+			productReference = 3A73ABB31338E94300804978 /* erp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = _Student_;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ER" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ER */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AEB4D0C12CDCEA8001BED8A /* erp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AEB4D0912CDCEA8001BED8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AEB4D0A12CDCEA8001BED8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3AEB4C5512CDCE3A001BED8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AEB4C5612CDCE3A001BED8A /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AEB4C5712CDCE3A001BED8A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AEB4C5812CDCE3A001BED8A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AEB4D1012CDCEA8001BED8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "erp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = erp;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		3AEB4D1112CDCEA8001BED8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "erp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = erp;
+				SDKROOT = macosx10.6;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AEB4D1212CDCEA9001BED8A /* Build configuration list for PBXNativeTarget "erp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AEB4D1012CDCEA8001BED8A /* Debug */,
+				3AEB4D1112CDCEA8001BED8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

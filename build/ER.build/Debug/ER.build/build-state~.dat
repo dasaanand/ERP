@@ -1,0 +1,291 @@
+TER
+v7
+r0
+t308893611.527317
+cCheck dependencies
+cProcessInfoPlistFile /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Info.plist ER-Info.plist
+cCopyStringsFile /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/dasaanand/Desktop/ER/English.lproj/MainMenu.xib
+cCompileXIB /Users/dasaanand/Desktop/ER/English.lproj/Home.xib
+cProcessPCH /var/folders/Hc/Hcl25SJWGamMOQWxHXpRuU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ER_Prefix-evxbcxvfeugtjidlnwqvxmlsbeew/ER_Prefix.pch.gch ER_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ER.build/Debug/ER.build/Objects-normal/x86_64/main.o /Users/dasaanand/Desktop/ER/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ER.build/Debug/ER.build/Objects-normal/x86_64/ERAppDelegate.o /Users/dasaanand/Desktop/ER/ERAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ER.build/Debug/ER.build/Objects-normal/x86_64/Home.o /Users/dasaanand/Desktop/ER/Home.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/MacOS/ER normal x86_64
+cTouch /Users/dasaanand/Desktop/ER/build/Debug/ER.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libsqlite3.0.dylib
+c000000004BF47016000000000000CB64
+t1274310678
+s52068
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/dasaanand/Desktop/ER/ERAppDelegate.h
+c000000004CB91EB1000000000000017F
+t1287200433
+s383
+i<Cocoa/Cocoa.h>
+
+N/Users/dasaanand/Desktop/ER/ERAppDelegate.m
+c000000004CB9201F0000000000000259
+t1287200799
+s601
+i"ERAppDelegate.h"
+i"Home.h"
+
+N/Users/dasaanand/Desktop/ER/ER_Prefix.pch
+c000000004CB8C0980000000000000087
+t1287176344
+s135
+i<Cocoa/Cocoa.h>
+
+N/Users/dasaanand/Desktop/ER/English.lproj/Home.xib
+c000000004CB91D6A0000000000013D0E
+t1287200106
+s81166
+
+N/Users/dasaanand/Desktop/ER/English.lproj/InfoPlist.strings
+c000000004CB8C098000000000000002D
+t1287176344
+s45
+
+N/Users/dasaanand/Desktop/ER/English.lproj/MainMenu.xib
+c000000004CB91E930000000000034E4E
+t1287200403
+s216654
+
+N/Users/dasaanand/Desktop/ER/Home.h
+c000000004CB8C36C00000000000000BC
+t1287177068
+s188
+i<Cocoa/Cocoa.h>
+
+N/Users/dasaanand/Desktop/ER/Home.m
+c000000004CB8C36C0000000000000189
+t1287177068
+s393
+i"Home.h"
+
+N/Users/dasaanand/Desktop/ER/Home.xib
+c000000004CB852A90000000000016B08
+t1287148201
+s92936
+
+N/Users/dasaanand/Desktop/ER/MyDocument.h
+c000000003C2F8E780000000000000110
+t1009749624
+s272
+i<Cocoa/Cocoa.h>
+i"ShapeView.h"
+
+N/Users/dasaanand/Desktop/ER/MyDocument.m
+c000000003C2F8A0900000000000004F4
+t1009748489
+s1268
+i"MyDocument.h"
+
+N/Users/dasaanand/Desktop/ER/build/Debug/ER.app
+t1287200811
+s102
+
+N/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Info.plist
+t1287200801
+s871
+
+N/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/MacOS/ER
+t1287200811
+s15960
+
+N/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/PkgInfo
+t1287200801
+s8
+
+N/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/English.lproj/Home.nib
+t1287200802
+s22501
+
+N/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1287200802
+s92
+
+N/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/English.lproj/MainMenu.nib
+t1287200802
+s46702
+
+N/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/Home.nib
+t2
+s0
+
+N/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/Objects-normal/x86_64/ER.LinkFileList
+c000000004CB92021000000000000010E
+t1287200801
+s270
+
+N/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/Objects-normal/x86_64/ERAppDelegate.o
+t1287200810
+s18412
+
+N/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/Objects-normal/x86_64/Home.o
+t1287200811
+s13456
+
+N/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/Objects-normal/x86_64/MyDocument.o
+t2
+s0
+
+N/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/Objects-normal/x86_64/main.o
+t1287200810
+s4968
+
+N/Users/dasaanand/Desktop/ER/main.m
+c000000004CB8C09800000000000000F7
+t1287176344
+s247
+i<Cocoa/Cocoa.h>
+
+N/var/folders/Hc/Hcl25SJWGamMOQWxHXpRuU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ER_Prefix-evxbcxvfeugtjidlnwqvxmlsbeew/ER_Prefix.pch.gch
+t1287200810
+s54265616
+
+NER-Info.plist
+c000000004CB8C09800000000000003EA
+t1287176344
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies308893601#308893601#0(0"0(0#1#0"8600684224#0"0#
+
+CCompileC build/ER.build/Debug/ER.build/Objects-normal/x86_64/ERAppDelegate.o /Users/dasaanand/Desktop/ER/ERAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s308893610.507146
+e308893610.883093
+r1
+xCompileC
+xbuild/ER.build/Debug/ER.build/Objects-normal/x86_64/ERAppDelegate.o
+x/Users/dasaanand/Desktop/ER/ERAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dasaanand/Desktop/ER/ERAppDelegate.m: In function '-[ERAppDelegate applicationDidFinishLaunching:]':
+o/Users/dasaanand/Desktop/ER/ERAppDelegate.m:23: warning: 'ERAppDelegate' may not respond to '-openCalendarWindow:'
+o/Users/dasaanand/Desktop/ER/ERAppDelegate.m:23: warning: (Messages without a matching method signature
+o/Users/dasaanand/Desktop/ER/ERAppDelegate.m:23: warning: will be assumed to return 'id' and accept
+o/Users/dasaanand/Desktop/ER/ERAppDelegate.m:23: warning: '...' as arguments.)
+lSLF07#2@51"Compile /Users/dasaanand/Desktop/ER/ERAppDelegate.m308893610#308893610#0(503"/Users/dasaanand/Desktop/ER/ERAppDelegate.m: In function '-[ERAppDelegate applicationDidFinishLaunching:]':/Users/dasaanand/Desktop/ER/ERAppDelegate.m:23: warning: 'ERAppDelegate' may not respond to '-openCalendarWindow:'/Users/dasaanand/Desktop/ER/ERAppDelegate.m:23: warning: (Messages without a matching method signature/Users/dasaanand/Desktop/ER/ERAppDelegate.m:23: warning: will be assumed to return 'id' and accept/Users/dasaanand/Desktop/ER/ERAppDelegate.m:23: warning: '...' as arguments.)2(22@57"'ERAppDelegate' may not respond to '-openCalendarWindow:'308893610#108#115#0(6@43"/Users/dasaanand/Desktop/ER/ERAppDelegate.m308893599#23#0#23#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)308893610#223#103#0(6@43"/Users/dasaanand/Desktop/ER/ERAppDelegate.m308893599#23#0#23#0#0"0(0#0#43"/Users/dasaanand/Desktop/ER/ERAppDelegate.m8625822560#1247"    cd /Users/dasaanand/Desktop/ER    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-generated-files.hmap -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-own-target-headers.hmap -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-all-target-headers.hmap -iquote /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-project-headers.hmap -F/Users/dasaanand/Desktop/ER/build/Debug -I/Users/dasaanand/Desktop/ER/build/Debug/include -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/DerivedSources/x86_64 -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/DerivedSources -include /var/folders/Hc/Hcl25SJWGamMOQWxHXpRuU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ER_Prefix-evxbcxvfeugtjidlnwqvxmlsbeew/ER_Prefix.pch -c /Users/dasaanand/Desktop/ER/ERAppDelegate.m -o /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/Objects-normal/x86_64/ERAppDelegate.o0#
+
+CCompileC build/ER.build/Debug/ER.build/Objects-normal/x86_64/Home.o /Users/dasaanand/Desktop/ER/Home.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s308893610.812066
+e308893611.027038
+r1
+xCompileC
+xbuild/ER.build/Debug/ER.build/Objects-normal/x86_64/Home.o
+x/Users/dasaanand/Desktop/ER/Home.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/dasaanand/Desktop/ER/Home.m308893610#308893611#0(0"0(0#0#34"/Users/dasaanand/Desktop/ER/Home.m8624112704#1229"    cd /Users/dasaanand/Desktop/ER    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-generated-files.hmap -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-own-target-headers.hmap -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-all-target-headers.hmap -iquote /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-project-headers.hmap -F/Users/dasaanand/Desktop/ER/build/Debug -I/Users/dasaanand/Desktop/ER/build/Debug/include -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/DerivedSources/x86_64 -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/DerivedSources -include /var/folders/Hc/Hcl25SJWGamMOQWxHXpRuU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ER_Prefix-evxbcxvfeugtjidlnwqvxmlsbeew/ER_Prefix.pch -c /Users/dasaanand/Desktop/ER/Home.m -o /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/Objects-normal/x86_64/Home.o0#
+
+CCompileC build/ER.build/Debug/ER.build/Objects-normal/x86_64/MyDocument.o /Users/dasaanand/Desktop/ER/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ER.build/Debug/ER.build/Objects-normal/x86_64/main.o /Users/dasaanand/Desktop/ER/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s308893610.505785
+e308893610.811954
+r1
+xCompileC
+xbuild/ER.build/Debug/ER.build/Objects-normal/x86_64/main.o
+x/Users/dasaanand/Desktop/ER/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/dasaanand/Desktop/ER/main.m308893610#308893610#0(0"0(0#0#34"/Users/dasaanand/Desktop/ER/main.m8596208448#1229"    cd /Users/dasaanand/Desktop/ER    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-generated-files.hmap -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-own-target-headers.hmap -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-all-target-headers.hmap -iquote /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-project-headers.hmap -F/Users/dasaanand/Desktop/ER/build/Debug -I/Users/dasaanand/Desktop/ER/build/Debug/include -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/DerivedSources/x86_64 -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/DerivedSources -include /var/folders/Hc/Hcl25SJWGamMOQWxHXpRuU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ER_Prefix-evxbcxvfeugtjidlnwqvxmlsbeew/ER_Prefix.pch -c /Users/dasaanand/Desktop/ER/main.m -o /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/dasaanand/Desktop/ER/English.lproj/Home.xib
+s308893602.232100
+e308893602.523757
+r1
+xCompileXIB
+x/Users/dasaanand/Desktop/ER/English.lproj/Home.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/dasaanand/Desktop/ER/English.lproj/Home.xib:910: note: This view is clipping its content.
+o/* com.apple.ibtool.document.warnings */
+o/Users/dasaanand/Desktop/ER/English.lproj/Home.xib:859: warning: This window's content rectangle does not lie entirely on the screen with the menu bar and may not be completely visible for all screen resolutions and configurations.
+lSLF07#2@33"CompileXIB English.lproj/Home.xib308893602#308893602#0(410"/* com.apple.ibtool.document.notices *//Users/dasaanand/Desktop/ER/English.lproj/Home.xib:910: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/dasaanand/Desktop/ER/English.lproj/Home.xib:859: warning: This window's content rectangle does not lie entirely on the screen with the menu bar and may not be completely visible for all screen resolutions and configurations.2(13@34"This view is clipping its content.308893602#18446744073709551615#0#0(6@50"/Users/dasaanand/Desktop/ER/English.lproj/Home.xib308892906#910#0#910#0#0"0(22@166"This window's content rectangle does not lie entirely on the screen with the menu bar and may not be completely visible for all screen resolutions and configurations.308893602#18446744073709551615#0#0(6@50"/Users/dasaanand/Desktop/ER/English.lproj/Home.xib308892906#859#0#859#0#0"0(0#0#50"/Users/dasaanand/Desktop/ER/English.lproj/Home.xib8624855712#318"    cd /Users/dasaanand/Desktop/ER    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/English.lproj/Home.nib /Users/dasaanand/Desktop/ER/English.lproj/Home.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/dasaanand/Desktop/ER/English.lproj/MainMenu.xib
+s308893601.681878
+e308893602.232000
+r1
+xCompileXIB
+x/Users/dasaanand/Desktop/ER/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib308893601#308893602#0(0"0(0#0#54"/Users/dasaanand/Desktop/ER/English.lproj/MainMenu.xib8595234560#326"    cd /Users/dasaanand/Desktop/ER    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/English.lproj/MainMenu.nib /Users/dasaanand/Desktop/ER/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/dasaanand/Desktop/ER/Home.xib
+r0
+
+CCopyStringsFile /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s308893601.635066
+e308893602.315875
+r1
+xCopyStringsFile
+x/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings308893601#308893602#0(0"0(0#0#59"/Users/dasaanand/Desktop/ER/English.lproj/InfoPlist.strings8603071008#338"    cd /Users/dasaanand/Desktop/ER    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Resources/English.lproj0#
+
+CLd /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/MacOS/ER normal x86_64
+s308893611.027142
+e308893611.507141
+r1
+xLd
+x/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/MacOS/ER
+xnormal
+xx86_64
+lSLF07#2@69"Link /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/MacOS/ER308893611#308893611#0(0"0(0#0#0"8624863040#474"    cd /Users/dasaanand/Desktop/ER    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/dasaanand/Desktop/ER/build/Debug -F/Users/dasaanand/Desktop/ER/build/Debug -filelist /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/Objects-normal/x86_64/ER.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -lsqlite3.0 -o /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/MacOS/ER0#
+
+CProcessInfoPlistFile /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Info.plist ER-Info.plist
+s308893601.629808
+e308893601.634963
+r1
+xProcessInfoPlistFile
+x/Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Info.plist
+xER-Info.plist
+lSLF07#2@21"Process ER-Info.plist308893601#308893601#0(0"0(0#0#41"/Users/dasaanand/Desktop/ER/ER-Info.plist8603465536#262"    cd /Users/dasaanand/Desktop/ER    builtin-infoPlistUtility ER-Info.plist -genpkginfo /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/dasaanand/Desktop/ER/build/Debug/ER.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Hc/Hcl25SJWGamMOQWxHXpRuU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ER_Prefix-evxbcxvfeugtjidlnwqvxmlsbeew/ER_Prefix.pch.gch ER_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s308893602.523896
+e308893610.505543
+r1
+xProcessPCH
+x/var/folders/Hc/Hcl25SJWGamMOQWxHXpRuU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ER_Prefix-evxbcxvfeugtjidlnwqvxmlsbeew/ER_Prefix.pch.gch
+xER_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile ER_Prefix.pch308893602#308893610#0(0"0(0#0#41"/Users/dasaanand/Desktop/ER/ER_Prefix.pch8624361920#1151"    cd /Users/dasaanand/Desktop/ER    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-generated-files.hmap -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-own-target-headers.hmap -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-all-target-headers.hmap -iquote /Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/ER-project-headers.hmap -F/Users/dasaanand/Desktop/ER/build/Debug -I/Users/dasaanand/Desktop/ER/build/Debug/include -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/DerivedSources/x86_64 -I/Users/dasaanand/Desktop/ER/build/ER.build/Debug/ER.build/DerivedSources -c /Users/dasaanand/Desktop/ER/ER_Prefix.pch -o /var/folders/Hc/Hcl25SJWGamMOQWxHXpRuU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ER_Prefix-evxbcxvfeugtjidlnwqvxmlsbeew/ER_Prefix.pch.gch0#
+
+CTouch /Users/dasaanand/Desktop/ER/build/Debug/ER.app
+s308893611.507255
+e308893611.527264
+r1
+xTouch
+x/Users/dasaanand/Desktop/ER/build/Debug/ER.app
+lSLF07#2@52"Touch /Users/dasaanand/Desktop/ER/build/Debug/ER.app308893611#308893611#0(0"0(0#0#0"8624018624#104"    cd /Users/dasaanand/Desktop/ER    /usr/bin/touch -c /Users/dasaanand/Desktop/ER/build/Debug/ER.app0#
+

@@ -1,0 +1,32 @@
+Terp
+v7
+r1
+cCheck dependencies
+
+N/Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug/erp.app
+t2
+s0
+
+N/Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug/erp.app/Contents/Info.plist
+t2
+s0
+
+N/Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug/erp.app/Contents/PkgInfo
+t2
+s0
+
+Nerp-Info.plist
+c000000004D1D972800000000000002B1
+t1293784872
+s689
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338813542#338813542#0(130"[BEROR]Code Signing Identity 'iPhone Developer' does not match any valid, non-expired, code-signing certificate in your keychain.1(4@122"Code Signing Identity 'iPhone Developer' does not match any valid, non-expired, code-signing certificate in your keychain.338813542#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CProcessInfoPlistFile /Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug/erp.app/Contents/Info.plist erp-Info.plist
+r0
+
+CTouch /Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug/erp.app
+r0
+

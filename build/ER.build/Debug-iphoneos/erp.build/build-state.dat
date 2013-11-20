@@ -1,0 +1,39 @@
+Terp
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug-iphoneos/erp.app
+t2
+s0
+
+N/Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug-iphoneos/erp.app/Info.plist
+t2
+s0
+
+N/Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug-iphoneos/erp.app/PkgInfo
+t2
+s0
+
+N/Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug-iphoneos/erp.app/ResourceRules.plist
+t2
+s0
+
+Nerp-Info.plist
+c000000004D1D972800000000000002B1
+t1293784872
+s689
+
+CCpResource build/Debug-iphoneos/erp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+r0
+
+CProcessInfoPlistFile /Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug-iphoneos/erp.app/Info.plist erp-Info.plist
+r0
+
+CTouch /Users/dasaanand/Projects/MAC/DBMS_minip/ERP/build/Debug-iphoneos/erp.app
+r0
+
